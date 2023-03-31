@@ -108,6 +108,9 @@ html {
     text-align: center;
     animation: text_reveal 1s ease forwards;
     animation-delay: 2s;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: .05rem;
 }
 #p2 span {
     position: absolute;
@@ -118,6 +121,83 @@ html {
 }
 
 /* Welcome Section  */
+
+
+/* About Us Section */
+#about-us{
+
+}
+#about-us .about-us{
+    flex-direction: column;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+#about-us .about-us-title{
+    font-size:4rem;
+    font-weight: 300;
+    color: black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+#about-us .about-us-top p{
+    font-size:1.4rem;
+    margin-top: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: .05rem;
+}
+#about-us .about-us-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#about-us .about-us-item{
+    flex-basis: 100%;
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    padding: 120px;
+    border-radius: 10px;
+    background-size: cover;
+    margin: 10px 5%;
+    z-index: 1;
+    position: relative;
+    color: white;
+    margin-top: 20px;
+    overflow: hidden;
+}
+#about-us .about-us-item::after {
+    content: '';
+    position:absolute;
+    left:0;
+    top: 0;
+    height:100%;
+    width:100%;
+    background-color: black;
+    opacity: .4;
+    z-index: -1;
+}
+#about-us .about-us-item h2{
+    font-size: 2.4rem;
+}
+#item1 {
+    background-image: url(item1.webp);
+}
+#item2 {
+    background-image: url(item2.jpeg);
+}
+#item3 {
+    background-image: url(item3.jpeg);
+}
+/* About Us Section */
 
 
 /* Keyframes */
