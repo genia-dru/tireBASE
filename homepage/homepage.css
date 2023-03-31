@@ -39,8 +39,9 @@ html {
 #h1-1{
     display: block;
     width: fit-content;
-    font-size: 4rem;
+    font-size: 4.5rem;
     position:relative;
+    margin-bottom: 0.5%;
     color: transparent;
     animation: text_reveal .5s ease forwards;
     animation-delay: 1.5s;
@@ -58,8 +59,9 @@ html {
 #h1-2{
     display: block;
     width: fit-content;
-    font-size: 5rem;
+    font-size: 5.5rem;
     position:relative;
+    margin-bottom: 1%;
     color: transparent;
     animation: text_reveal_name .5s ease forwards;
     animation-delay: 1.5s;
@@ -79,6 +81,7 @@ html {
     width: fit-content;
     font-size: 2rem;
     position:relative;
+    margin-bottom: 1%;
     color: transparent;
     animation: text_reveal .5s ease forwards;
     animation-delay: 1.5s;
@@ -99,8 +102,9 @@ html {
     font-size: 1.4rem;
     position:relative;
     color: transparent;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 1%;
     text-align: center;
     animation: text_reveal 1s ease forwards;
     animation-delay: 2s;
